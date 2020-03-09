@@ -52,3 +52,9 @@ spring.cloud.zookeeper.connect-string=localhost:2181
 * RabbitMq
 * [Seata-server](https://github.com/seata/seata/releases/download/v0.9.0/seata-server-0.9.0.zip)
 
+## git同步源库
+* git remote -v 
+* git remote add upstream git@github.com:xxx/xxx.git
+* git fetch upstream
+* git merge upstream/master
+* git push 
