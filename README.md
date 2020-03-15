@@ -45,12 +45,13 @@ cloud-provider-payment8004\src\main\resources\application.yml
 
 spring.cloud.zookeeper.connect-string=localhost:2181
 
-## 3 工具
+## 3 软件
 * Zookeeper
 * consul
 * JMeter
 * RabbitMq
 * [Seata-server](https://github.com/seata/seata/releases/download/v0.9.0/seata-server-0.9.0.zip)
+* zipkin-server
 
 ## git同步源库
 * git remote -v 
@@ -58,3 +59,4 @@ spring.cloud.zookeeper.connect-string=localhost:2181
 * git fetch upstream
 * git merge upstream/master
 * git push 
+
